@@ -10,7 +10,6 @@ public class Timeline {
     private Map<Instant, String> entry;
     public Timeline(){
         timeLine = new TreeMap<>();
-        //aggregatedTimeLine = new ArrayList<>();
         entry = new TreeMap<>();
     }
 

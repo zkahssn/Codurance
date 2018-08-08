@@ -9,8 +9,8 @@ import java.util.Map;
 
 //Process all the user action for Social Media Application
 public class ActionHandler {
-    List<User> Users;
-    User currentUser;
+    private List<User> Users;
+    private User currentUser;
 
     public ActionHandler(List<User> setUserList) {
         this.Users = setUserList;
